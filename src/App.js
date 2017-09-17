@@ -26,7 +26,7 @@ class App extends Component {
           this.setState({token: access_token});
           window.localStorage.setItem("getLink_token", access_token);
         } else {
-          window.location.replace('https://api.instagram.com/oauth/authorize/?client_id=' + client_id + '&redirect_uri=http://localhost:3000/&scope=public_content&response_type=token');
+          window.location.replace('https://api.instagram.com/oauth/authorize/?client_id=' + client_id + '&redirect_uri=https://ainhoal.github.io/get-link&scope=public_content&response_type=token');
         }
       } else {
         this.setState({token: access_token});
