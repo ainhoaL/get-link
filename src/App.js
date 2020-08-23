@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import { Dashboard } from'./components/Dashboard';
 
-const client_id = '19aff168df6d4e20824c41e096a2573c';
+const client_id = 'CLIENT_ID';
 
 class App extends Component {
   constructor(){
